@@ -36,8 +36,19 @@ Australian industry data provides:
   - **Installation:** `git clone https://github.com/matthewdcage/pbs-mcp-server.git`
 
 ### 💼 Recruitment & HR
+- **[SEEK Job Scraper MCP Server](https://apify.com/websift/seek-job-scraper/api/mcp)** ✅ **ACTIVE**
+  - Scrape job listings from seek.com.au with structured JSON output
+  - **Provider:** Apify
+  - **Installation:** Via Apify platform
+  - **Features:** Job search automation, detailed job information extraction, market research
+
+- **[Advanced SEEK Job Scraper MCP Server](https://apify.com/scrapestorm/seek-job-jobstreet-scraper-advanced-cheap/api/mcp)** ✅ **ACTIVE**
+  - Advanced SEEK and JobStreet scraping with anti-detection
+  - **Provider:** Apify/ScrapeSt
+  - **Installation:** Via Apify platform
+  - **Features:** AI-driven job applications, cover letter generation, application tracking
+
 *Coming Soon - Contributions Welcome!*
-- SEEK Jobs API MCP Server
 - Indeed Australia MCP Server
 - LinkedIn Australia MCP Server
 - Hays Recruitment MCP Server
@@ -232,4 +243,4 @@ This repository is licensed under the MIT License. Individual MCP servers may ha
 
 ---
 
-**🇦🇺 Proudly Australian** | **Maintained by the Australian MCP Community** | **Last Updated:** December 2024
+**🇦🇺 Proudly Australian**
