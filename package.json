@@ -1,0 +1,57 @@
+{
+  "name": "australian-mcp-servers",
+  "version": "1.0.0",
+  "description": "A comprehensive collection of Model Context Protocol (MCP) servers for Australian Government data and services",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install --workspaces",
+    "build": "npm run build --workspaces",
+    "test": "npm test --workspaces",
+    "lint": "eslint . --ext .js,.ts,.mjs",
+    "format": "prettier --write .",
+    "dev": "npm run dev --workspaces",
+    "clean": "npm run clean --workspaces && rm -rf node_modules",
+    "postinstall": "echo '✅ Australian MCP Servers monorepo installed successfully'"
+  },
+  "workspaces": [
+    "servers/*"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "australia",
+    "government",
+    "data",
+    "statistics",
+    "abs",
+    "pbs",
+    "ato",
+    "ai",
+    "llm",
+    "claude",
+    "openai"
+  ],
+  "author": "Australian MCP Community",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LakshNathan/australian-mcp-servers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LakshNathan/australian-mcp-servers/issues"
+  },
+  "homepage": "https://github.com/LakshNathan/australian-mcp-servers#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
