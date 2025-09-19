@@ -54,13 +54,7 @@ Australian industry data provides:
 - ANZ Business API MCP Server
 - Westpac API MCP Server
 - NAB Connect MCP Server
-- **[Xero MCP Server](https://github.com/XeroAPI/xero-mcp-server)** ✅ **ACTIVE**
-  - Official Xero accounting MCP server
-  - **Package:** `@xeroapi/xero-mcp-server`
-  - **Installation:** `npm install @xeroapi/xero-mcp-server`
-  - **Features:** Contact/invoice management, OAuth2 authentication
-
-*Coming Soon:*
+- Xero Accounting MCP Server
 - MYOB MCP Server
 
 ### 🛒 Retail & E-commerce
@@ -79,17 +73,7 @@ Australian industry data provides:
 
 ### 📱 Technology
 *Coming Soon - Contributions Welcome!*
-- **[Atlassian MCP Server](https://github.com/sooperset/mcp-atlassian)** ✅ **ACTIVE**
-  - Official MCP server for Jira & Confluence (Cloud + On-Premise)
-  - **Installation:** Docker-based deployment
-  - **Features:** AI-powered search, issue filtering, content management
-
-- **[Canva Dev MCP Server](https://www.canva.dev/docs/apps/mcp-server/)** ✅ **ACTIVE**
-  - Official MCP server for Canva app development assistance
-  - **Installation:** Built-in with MCP clients (Cursor, Claude Desktop)
-  - **Features:** AI-powered development assistance, documentation access
-
-*Coming Soon:*
+- Atlassian API MCP Server
 - Canva API MCP Server
 - SafetyCulture (iAuditor) MCP Server
 - Campaign Monitor MCP Server
