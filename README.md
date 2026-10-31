@@ -70,6 +70,18 @@ Australian industry data provides:
   - **Package:** `@xeroapi/xero-mcp-server`
   - **Installation:** `npm install @xeroapi/xero-mcp-server`
   - **Features:** Contact/invoice management, OAuth2 authentication
+- **[Truo MCP Server](https://truo.com.au/docs)** ✅ **ACTIVE**
+  - Official remote MCP for Australian household bank accounts (CDR)
+  - **Endpoint:** `https://connect.truo.com.au/mcp` (Streamable HTTP, OAuth 2.1 DCR + PKCE)
+  - **Registry:** `au.com.truo/truo`
+  - **Installation:** Built-in with MCP clients that support remote HTTP + OAuth (Claude, ChatGPT, Cursor, etc.)
+  - **Features:** Ask about your own spending, bills, merchants, loans and exports — read-only at the bank
+
+
+
+
+
+
 
 *Coming Soon:*
 - MYOB MCP Server
