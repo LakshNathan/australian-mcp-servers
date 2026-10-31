@@ -77,12 +77,6 @@ Australian industry data provides:
   - **Installation:** Built-in with MCP clients that support remote HTTP + OAuth (Claude, ChatGPT, Cursor, etc.)
   - **Features:** Ask about your own spending, bills, merchants, loans and exports — read-only at the bank
 
-
-
-
-
-
-
 *Coming Soon:*
 - MYOB MCP Server
 
